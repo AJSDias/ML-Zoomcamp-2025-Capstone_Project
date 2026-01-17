@@ -101,8 +101,7 @@ Start the FastAPI server:
 uvicorn predict:app --reload
 ```
 
-Then open: http://localhost:8000/docs
-Upload an X-ray image and receive a prediction.
+Then open: http://localhost:8000/docs and upload an X-ray image to receive a prediction.
 
 ---
 
@@ -127,3 +126,4 @@ docker run -p 8000:8000 pneumonia-api
 This project is for educational use only.
 
 ---
+
