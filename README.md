@@ -126,11 +126,24 @@ docker run -p 8000:8000 pneumonia-api
 
 ---
 
+## 🚀 Deployment on Render
+
+The docker image was deployed in Render. 
+Use the URL below to upload an example X-ray image from the Kaggle dataset mentioned above to test the app.
+
+**URL:** https://ml-zoomcamp-2025-capstone-project.onrender.com/docs
+
+---
+
 ## 🧾 License
 
 This project is for educational use only.
+It is not a medical device.
+
+Do not use it for real-world diagnosis.
 
 ---
+
 
 
 
