@@ -19,6 +19,7 @@ The dataset used is **Chest X-Ray Images (Pneumonia)**.
 
 ---
 
+```bash
 ## 🚀 Project Structure
 .
 ├── data/
@@ -33,6 +34,7 @@ The dataset used is **Chest X-Ray Images (Pneumonia)**.
 ├── Dockerfile
 ├── pyproject.toml
 └── README.md
+```
 
 ---
 
@@ -75,3 +77,4 @@ This script will:
 - Save the weights to model.pth
 
 ---
+
