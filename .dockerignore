@@ -1,0 +1,10 @@
+# ignore the dataset
+data/
+training/
+
+# ignore Jupyter notebooks 
+notebooks/
+*.ipynb
+
+# ignore Python cache files
+__pycache__/
