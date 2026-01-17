@@ -19,9 +19,9 @@ The dataset used is **Chest X-Ray Images (Pneumonia)**.
 
 ---
 
-```bash
 ## 🚀 Project Structure
-.
+
+```bash
 ├── data/
 │ ├── train/
 │ ├── val/
@@ -78,3 +78,52 @@ This script will:
 
 ---
 
+## 📊 Evaluation
+
+Run evaluation:
+
+```bash
+python evaluate.py
+```
+
+This script prints:
+- Confusion matrix
+- Precision and recall
+- Threshold comparison
+
+---
+
+## 🧪 Prediction API
+
+Start the FastAPI server:
+
+```bash
+uvicorn predict:app --reload
+```
+
+Then open: http://localhost:8000/docs
+Upload an X-ray image and receive a prediction.
+
+---
+
+## 🐳 Docker
+
+Build the image: 
+
+```bash
+docker build -t pneumonia-api .
+```
+
+Run the container:
+
+```bash
+docker run -p 8000:8000 pneumonia-api
+```
+
+---
+
+## 🧾 License
+
+This project is for educational use only.
+
+---
