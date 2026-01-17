@@ -133,6 +133,11 @@ Use the URL below to upload an example X-ray image from the Kaggle dataset menti
 
 **URL:** https://ml-zoomcamp-2025-capstone-project.onrender.com/docs
 
+- Example of deployment usage:
+
+<img width="1402" height="430" alt="image" src="https://github.com/user-attachments/assets/39b12650-0a3c-49a6-939f-0bfe7f333c81" />
+
+
 ---
 
 ## 🧾 License
@@ -143,6 +148,7 @@ It is not a medical device.
 Do not use it for real-world diagnosis.
 
 ---
+
 
 
 
