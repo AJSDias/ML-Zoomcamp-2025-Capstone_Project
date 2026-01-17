@@ -17,6 +17,7 @@ The dataset used is **Chest X-Ray Images (Pneumonia)**.
 > ⚠️ The dataset is **not included** in this repository due to size constraints.  
 > You must download it manually and place it in the `data/` folder with the structure below.
 
+**The dataset can be downloaded from:** https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 ---
 
 ## 🚀 Project Structure
@@ -119,6 +120,9 @@ Run the container:
 docker run -p 8000:8000 pneumonia-api
 ```
 
+Example of docker image running:
+<img width="535" height="216" alt="image" src="https://github.com/user-attachments/assets/de83c348-596d-4b65-999f-0109f65f1df3" />
+
 ---
 
 ## 🧾 License
@@ -126,4 +130,5 @@ docker run -p 8000:8000 pneumonia-api
 This project is for educational use only.
 
 ---
+
 
